@@ -1,0 +1,157 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+// customize styles
+$family-sans-serif: "Nunito",
+sans-serif;
+$primary:#A483B8;
+$green: #96B782;
+$grey-light: #D8D8D8;
+$grey-lighter:#EEECEC;
+$success:$green;
+$navbar-background-color: $grey-lighter;
+$navbar-height: 6.25rem;
+$navbar-item-color: $primary;
+$navbar-item-hover-color: $white;
+$navbar-item-hover-background-color: $primary;
+$footer-background-color:$grey-lighter;
+$footer-padding: 2rem;
+$title-color:$primary;
+@import '~bulma';
+
+
+
+.header-logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+div.logo-text {
+  padding-left: .7rem;
+  text-align: left;
+}
+
+h1.logo-title {
+  font-size: 1.4rem;
+  margin: 0;
+  color: $primary;
+  font-weight: 700;
+  line-height: 1;
+}
+
+p.logo-subtitle {
+  font-size: .8rem;
+  margin: 0;
+  color: $grey-light;
+  font-weight: 700;
+}
+
+.home-hero {
+  background-color: $primary;
+  background-image: url('~assets/img/home-hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 0;
+  height: 70vh;
+  position: relative;
+
+  svg.hero-logo {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1.hero-title {
+    font-size: 1.7rem;
+    margin: 0;
+    color: $white;
+    font-weight: 700;
+  }
+
+  p.hero-subtitle {
+    font-size: 1rem;
+    margin: 0;
+    color: $black;
+    font-weight: 700;
+  }
+}
+
+
+.text-indent {
+
+  padding-left: 2rem;
+  border-left: 3px solid $green;
+
+  @include desktop {
+    margin-left: 6rem;
+  }
+  &.no-border{
+    border-left: none;
+    padding-left: 0;
+  }
+
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.contact-form--footer{
+  margin-bottom: 2rem
+}
+.content-section {
+  margin-bottom: 3rem;
+}
+
+ul.list-menu {
+  list-style-type: disc;
+  padding: 0 0 1.5rem 1.5rem;
+
+  li {
+    padding: .4rem 0;
+  }
+}
+
+h1.page-title{
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+}
+
+.service-card-home {
+  footer {
+    background: $primary;
+    padding: .5rem 1rem;
+    border-top: none;
+
+    h3 {
+      color: $white;
+    }
+  }
+}
+.bottom-hero{
+  img{
+    display: block;
+  }
+}
+.card.contact-form {
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+
+.service-card{
+  padding: 3rem 2rem;
+  margin: 3rem 1rem;
+  .service-card-title{
+    color:$primary;
+  }
+  .service-card-content{
+    border-left:3px solid $green;
+    padding-left: 2rem;
+  }
+}
