@@ -94,7 +94,7 @@
         <div class="columns  is-centered">
           <div class="column is-9-desktop">
             <div class="columns is-multiline is-centered">
-              <div class="column is-2-tablet is-4-desktop">
+              <div class="column is-6-tablet is-4-desktop">
                 <div class="card service-card-home">
                   <div class="card-image">
                     <figure class="image is-4by3">
@@ -109,63 +109,63 @@
                   </footer>
                 </div>
               </div>
-              <div class="column is-2-tablet is-4-desktop">
+              <div class="column is-6-tablet is-4-desktop">
                 <div class="card service-card-home">
                   <div class="card-image">
                     <figure class="image is-4by3">
                       <img
-                        src="~/assets/img/card-img-1.jpg"
+                        src="~/assets/img/card-img-2.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <footer class="card-footer">
-                    <h3>Adolescents</h3>
+                    <h3>Adults in Mental Health Care</h3>
                   </footer>
                 </div>
               </div>
-              <div class="column is-2-tablet is-4-desktop">
+              <div class="column is-6-tablet is-4-desktop">
                 <div class="card service-card-home">
                   <div class="card-image">
                     <figure class="image is-4by3">
                       <img
-                        src="~/assets/img/card-img-1.jpg"
+                        src="~/assets/img/card-img-3.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <footer class="card-footer">
-                    <h3>Adolescents</h3>
+                    <h3>Addiction Recovery</h3>
                   </footer>
                 </div>
               </div>
-              <div class="column is-2-tablet is-4-desktop">
+              <div class="column is-6-tablet is-4-desktop">
                 <div class="card service-card-home">
                   <div class="card-image">
                     <figure class="image is-4by3">
                       <img
-                        src="~/assets/img/card-img-1.jpg"
+                        src="~/assets/img/card-img-4.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <footer class="card-footer">
-                    <h3>Adolescents</h3>
+                    <h3>Adaptive Lessons</h3>
                   </footer>
                 </div>
               </div>
-              <div class="column is-2-tablet is-4-desktop">
+              <div class="column is-6-tablet is-4-desktop">
                 <div class="card service-card-home">
                   <div class="card-image">
                     <figure class="image is-4by3">
                       <img
-                        src="~/assets/img/card-img-1.jpg"
+                        src="~/assets/img/card-img-5.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <footer class="card-footer">
-                    <h3>Adolescents</h3>
+                    <h3>Assisted Living and Memory Care</h3>
                   </footer>
                 </div>
               </div>

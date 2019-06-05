@@ -1,13 +1,13 @@
 <template>
   <section class="services">
-    <div class="section service-section">
+    <div class="section ">
       <div class="container">
-        <h1 class="has-text-dark page-title">
+        <h1 class="has-text-dark page-title high-z-index">
           Musical Therapy for Adolescents in Mental and Behavioral Health Care
         </h1>
 
-        <div class="columns">
-          <div class="column is-7">
+        <div class="columns ">
+          <div class="column is-7 high-z-index">
             <div class="content-section">
               <h2 class="title">Why Music Therapy?</h2>
               <div class="text-indent">
@@ -28,33 +28,39 @@
               <div class="text-indent no-border">
                 <ul class="list-menu">
                   <li>
-                    A teen with mental health issues discovers a sense of
-                    self-worth and empowerment
+                    90% voluntary participation rate (Patterson et al., 2015)
                   </li>
                   <li>
-                    A person struggling with addiction remains in recovery
+                    Empowering adolescents to feel a greater sense of control in
+                    managing their own anxiety and distress (Punch, 2015)
                   </li>
                   <li>
-                    An individual at the end of life (and their family) have
-                    time to experience connection and process emotion
+                    Significant improvement in mood, expression of feelings, and
+                    social engagement (Patterson et al., 2015)
                   </li>
                   <li>
-                    A person with cancer has a reduction in pain, nausea, and
-                    stress
+                    Significant improvement in emotion awareness,
+                    identification, and regulation (Dingle et al., 2016)
                   </li>
                   <li>
-                    An individual with Alzheimer’s is able to sing along to
-                    songs from their young adulthood, and engage in
-                    music-prompted discussion
+                    Significant improvement in communication between parent and
+                    child (Porter et al., 2017)
+                  </li>
+                  <li>
+                    Significant decrease in depression scores (Porter et al.,
+                    2017)
                   </li>
                 </ul>
               </div>
             </div>
           </div>
+          <div class="column is-5 right-img-music">
+            <img src="~/assets/img/about-bg-img.jpg" alt="" />
+          </div>
         </div>
       </div>
     </div>
-    <div class="has-background-grey-lighter">
+    <div class="has-background-grey-lighter high-z-index">
       <div class="section">
         <div class="container">
           <h2 class="title has-text-centered">
@@ -91,14 +97,16 @@
                   <div
                     class="column is-3-desktop has-text-centered service-card-title"
                   >
-                    Song Sharing
+                    Improvisation
                   </div>
                   <div class="column service-card-content">
-                    A popular intervention among adolescents, this involves the
-                    client sharing music that they have a personal connection
-                    with. Often, this leads to a discussion about their own
-                    experiences, and provides a comfortable, non-threatening way
-                    for the client to reveal more about themselves.
+                    Creating music in the moment gives adolescents the chance to
+                    practice a variety of skills such as creating group
+                    connection, active listening, self expression, and problem
+                    solving. Adolescents are able to make connections between
+                    their experiences in the music and how that relates to their
+                    communication styles, emotional and behavioral needs, roles
+                    in peer groups and family, and much more.
                   </div>
                 </div>
               </div>
@@ -107,14 +115,15 @@
                   <div
                     class="column is-3-desktop has-text-centered service-card-title"
                   >
-                    Song Sharing
+                    Re-creation
                   </div>
                   <div class="column service-card-content">
-                    A popular intervention among adolescents, this involves the
-                    client sharing music that they have a personal connection
-                    with. Often, this leads to a discussion about their own
-                    experiences, and provides a comfortable, non-threatening way
-                    for the client to reveal more about themselves.
+                    In re-creation, adolescents collaborate to interpret and
+                    perform familiar songs, which develops skills such as
+                    negotiation, listening, and problem solving. This
+                    intervention allows creative freedom within parameters that
+                    set safe boundaries for adolescents. Lyric interpretation
+                    can also be used to facilitate insight.
                   </div>
                 </div>
               </div>
@@ -123,14 +132,16 @@
                   <div
                     class="column is-3-desktop has-text-centered service-card-title"
                   >
-                    Song Sharing
+                    Songwriting
                   </div>
                   <div class="column service-card-content">
-                    A popular intervention among adolescents, this involves the
-                    client sharing music that they have a personal connection
-                    with. Often, this leads to a discussion about their own
-                    experiences, and provides a comfortable, non-threatening way
-                    for the client to reveal more about themselves.
+                    Original songwriting allows space and creative freedom to
+                    express thought and encourage change. Through songwriting,
+                    adolescents may gain a better understanding of their
+                    previous life experiences, facilitate personal development,
+                    and reinforce positive thoughts and behaviors. Though this
+                    can be a challenging intervention, it is also incredibly
+                    powerful.
                   </div>
                 </div>
               </div>
@@ -139,14 +150,14 @@
                   <div
                     class="column is-3-desktop has-text-centered service-card-title"
                   >
-                    Song Sharing
+                    Relaxation and Mindfulness
                   </div>
                   <div class="column service-card-content">
-                    A popular intervention among adolescents, this involves the
-                    client sharing music that they have a personal connection
-                    with. Often, this leads to a discussion about their own
-                    experiences, and provides a comfortable, non-threatening way
-                    for the client to reveal more about themselves.
+                    Relaxation and mindfulness techniques allow clients to reset
+                    and use coping skills. Music provides a unique opportunity
+                    to promote and guide relaxation. Music can also encourage
+                    mindfulness by taking into consideration each musical
+                    element and how it affects the present moment.
                   </div>
                 </div>
               </div>
